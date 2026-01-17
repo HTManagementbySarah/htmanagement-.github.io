@@ -122,4 +122,79 @@ body {
     text-align: center;
   }
 }
+:root{
+  --bg: #1f232a;
+  --panel: #262c35;
+  --card: rgba(255,255,255,0.06);
+  --card-border: rgba(255,255,255,0.10);
+  --text: #f2f0ed;
+  --muted: #c9c4bc;
+  --accent: #c28a78;
+}
+
+body{
+  background: radial-gradient(1200px 600px at 30% 10%, rgba(194,138,120,0.12), transparent 55%),
+              var(--bg);
+  color: var(--text);
+}
+
+.sidebar{
+  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  border-right: 1px solid rgba(255,255,255,0.08);
+}
+
+.sidebar h1{ color: var(--text); }
+.sidebar h1 span{ color: var(--muted); }
+
+.sidebar a{
+  color: var(--muted);
+}
+.sidebar a:hover{
+  color: var(--accent);
+}
+
+.section h2{
+  color: var(--text);
+}
+
+.card{
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: 18px;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.25);
+  backdrop-filter: blur(6px);
+}
+
+.card h3{
+  color: var(--text);
+}
+
+.card p{
+  color: var(--muted);
+}
+
+/* Bloc photo + contact */
+.presentation{
+  margin-top: 70px;
+  padding: 22px 26px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.presentation p{
+  color: var(--muted);
+}
+
+.presentation strong{
+  color: var(--accent);
+}
+
+/* Photo */
+.presentation img{
+  width: 240px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.16);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.35);
+}
 
