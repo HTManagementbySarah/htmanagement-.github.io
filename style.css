@@ -448,4 +448,20 @@ body{
   margin-top: 40px;
   font-size: 1.05em;
 }
+.tarif-highlight {
+  margin-top: 12px;
+  font-weight: 600;
+  color: #d8b4a0; /* rose gold doux */
+}
 
+.tarifs-cta {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.tarifs-cta a {
+  color: #d8b4a0;
+  text-decoration: none;
+  font-weight: 600;
+}
